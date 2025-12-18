@@ -1,0 +1,40 @@
+body{
+    background-color: #7d6a81;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: #72407c;
+    padding: 20px;
+}
+
+#display{
+    background-color: #262626;
+    padding: 3em;
+    color: whitesmoke;
+    text-align: right;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 3em;
+}
+
+#keys button{
+    padding: 1em;
+    font-size: 2em;
+    border: none;
+    color: #262626;
+}
+
+#keys button, #display{
+    border-radius: 0.8em;
+}
